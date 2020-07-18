@@ -5,11 +5,13 @@ date: "18/07/2020"
 output: html_document
 ---
 
-```{r setup, include = FALSE, cache = FALSE}
-knitr::opts_chunk$set(error = TRUE)
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  fig.path = "README_figs/README-"
+)
 ```
 
-# 1. Load and preprocessing the data
+# 1. Load & preprocessing the data
 
 **Fix knitr settings**
 ```{r}
